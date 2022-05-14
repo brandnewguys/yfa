@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Your favourite ancestor</title>
+	<meta name="description" content="An experimental circular SVG text animation">
+	<meta name="keywords" content="animation, svg, text, typography, intro, javascript">
+	<meta name="author" content="Codrops">
+	<link rel="shortcut icon" href="/favicon.26242483.ico">
+	<link rel="stylesheet" href="https://use.typekit.net/kxo3pgz.css">
+	<link rel="stylesheet" type="text/css" href="/base.98fd6c19.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>document.documentElement.className = "js";
+
+var supportsCssVars = function supportsCssVars() {
+  var e,
+      t = document.createElement("style");
+  return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e;
+};
+
+supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+<script src="/base.98fd6c19.js"></script></head>
+
+<body class="demo-1 loading">
+	<main>
+		<svg class="circles" width="100%" height="100%" viewBox="0 0 1400 1400">
+			<def>
+				<path id="circle-1" d="M250,700.5A450.5,450.5 0 1 11151,700.5A450.5,450.5 0 1 1250,700.5"></path>
+				<path id="circle-2" d="M382,700.5A318.5,318.5 0 1 11019,700.5A318.5,318.5 0 1 1382,700.5"></path>
+				<path id="circle-3" d="M487,700.5A213.5,213.5 0 1 1914,700.5A213.5,213.5 0 1 1487,700.5"></path>
+				<path id="circle-4" d="M567.5,700.5A133,133 0 1 1833.5,700.5A133,133 0 1 1567.5,700.5"></path>
+			</def>
+			<text class="circles__text circles__text--1">
+				<textPath class="circles__text-path" xlink:href="#circle-1" aria-label="" textLength="2830">What goes around comes around&nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--2">
+				<textPath class="circles__text-path" xlink:href="#circle-2" aria-label="" textLength="2001">What goes around comes around&nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--3">
+				<textPath class="circles__text-path" xlink:href="#circle-3" aria-label="" textLength="1341">What goes around&nbsp;</textPath>
+			</text>
+			<text class="circles__text circles__text--4">
+				<textPath class="circles__text-path" xlink:href="#circle-4" aria-label="" textLength="836">Comes around&nbsp;</textPath>
+			</text>
+		</svg>
+		<div class="frame">
+			<h1 class="frame__title"><img src="/yfa-monogram.a569f4ec.svg" alt=""></h1>
+			<nav class="frame__links">
+				<!-- <a href="http://tympanus.net/Tutorials/InfiniteCircularGallery/">Previous demo</a>
+				<a href="https://tympanus.net/codrops/?p=53487">Article</a> -->
+				<a href="https://instagram.com/brandnewguys.agency">Instagram</a>
+			</nav>
+			<nav class="frame__demos">
+				<a href="/" class="frame__demo frame__demo--current">Link 1</a>
+				<a href="/" class="frame__demo">Link 2</a>
+				<a href="/" class="frame__demo">Link 3</a>
+			</nav>
+		</div>
+		<div class="content">
+			<p>"Never follow the herd, <br>unless it’s your ancestors <br>leading the way." <br><small>-Your favourite ancestor</small></p>
+		</div>
+		<button class="enter">
+			<div class="enter__bg"></div>
+			<span class="enter__text">Remember</span>
+		</button>
+	</main>
+	<script src="/demo1.151408fb.js"></script>
+</body>
+
+</html>
