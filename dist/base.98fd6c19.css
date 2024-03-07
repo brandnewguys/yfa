@@ -10,8 +10,8 @@
 
 @font-face {
     font-family: 'Self Modern';
-    src: url('/SelfModern-Regular.153e383f.woff2') format('woff2'),
-        url('/SelfModern-Regular.887c5fed.woff') format('woff');
+    src: url('SelfModern-Regular.153e383f.woff2') format('woff2'),
+        url('SelfModern-Regular.887c5fed.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Self Modern';
-    src: url('/SelfModern-Regular.153e383f.woff2') format('woff2'),
-        url('/SelfModern-Regular.887c5fed.woff') format('woff');
+    src: url('SelfModern-Regular.153e383f.woff2') format('woff2'),
+        url('SelfModern-Regular.887c5fed.woff') format('woff');
     font-weight: 300;
     font-style: normal;
     font-display: swap;
@@ -379,6 +379,3 @@ small {
 		text-align: left;
 	}
 }
-
-
-/*# sourceMappingURL=/base.98fd6c19.css.map */

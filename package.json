@@ -7,7 +7,7 @@
     "start": "parcel src/index.html --open",
     "clean": "rm -rf dist/*",
     "build:parcel": "parcel build src/index.html --no-content-hash --no-minify --no-source-maps --public-url ./",
-    "build": "npm run clean && npm run build:parcel"
+    "build": "npm run clean && npm run build:parcel && cp -r src/flower-giving/_site dist/time-will-tell"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "url": "https://github.com/codrops/[NAME]/issues"
   },
   "dependencies": {
-    "gsap": "^3.6.0",
+    "gsap": "^3.12.5",
     "parcel-bundler": "^1.12.4",
     "splitting": "^1.0.6"
   }
