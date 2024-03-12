@@ -27,6 +27,9 @@ console.log(params.msg);
 var regex = /(.{10})(\s)/g;
 
 let string = params.msg? params.msg :"Good times :)";
+if (params.white == "true") {
+    document.body.style.backgroundColor = "white"
+}
 // let string = params.msg.replace(regex, "$1<br>");
 // Coordinates data per 2D canvas and 3D scene
 let textureCoordinates = [];
